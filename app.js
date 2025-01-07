@@ -76,8 +76,8 @@ const addToCart = (drinkId) => {
 
   allDrinks.push(drinkId);
 
-  if (allDrinks.length >= 7) {
-    alert("You can't take more than 8 products at a time!");
+  if (allDrinks.length > 7) {
+    alert("You can't take more than 7 products at a time!");
     return;
   }
 
