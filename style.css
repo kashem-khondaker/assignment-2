@@ -1,0 +1,149 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 50px;
+  outline: none;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+.search-container button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 6px 8px rgba(0, 123, 255, 0.4);
+}
+
+.search-container button:active {
+  transform: scale(0.95);
+}
+
+.cart-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin: 10px;
+  /* border: 1px solid red; */
+}
+.add-cart-container {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.445);
+  box-shadow: 5px 0px 4px gray;
+}
+
+/* cart section  */
+
+.food-cart-container {
+  margin-right: 10px;
+  padding: 20px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  border: 1px solid red;
+}
+
+.food-cart {
+  background: white;
+  width: 260px;
+  /* width: 100%; */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.food-cart img {
+  width: 100%;
+  height: auto;
+}
+
+.food-cart-content {
+  padding: 20px;
+}
+
+.food-cart h2 {
+  margin: 0 0 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.food-cart p {
+  margin: 0 0 15px;
+  color: #666;
+}
+
+.food-cart .price {
+  font-size: 20px;
+  color: #28a745;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.food-cart button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.selected-cart-innerDiv {
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 4px;
+  margin: 5px;
+}
+
+.selected-cart-innerDiv img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+}
+
