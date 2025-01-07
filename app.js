@@ -121,7 +121,8 @@ const openModal = (drinkId) => {
       const drink = data.drinks[0];
       document.getElementById("modalTitle").textContent = drink.strDrink;
       document.getElementById("modalImage").src = drink.strDrinkThumb;
-      document.getElementById("isAlcoholic").textContent =drink.strAlcoholic;
+      document.getElementById("catagory").textContent = `Category : ${drink.strCategory}`;
+      document.getElementById("isAlcoholic").textContent = `Alcoholic : ${drink.strAlcoholic}`;
       document.getElementById("FoodInstraction").textContent =drink.strInstructions.slice(0,100);
 
       document.getElementById("modalContent").style.backgroundColor = "#f8f9fa";
