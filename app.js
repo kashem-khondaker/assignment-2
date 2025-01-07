@@ -55,9 +55,9 @@ const displayData = (drinks) => {
     div.innerHTML = `
       <img src="${drink.strDrinkThumb}" alt="${drink.strMeal}" />
       <div class="food-cart-content">
-        <h2>${drink.strDrink.slice(0, 15)}</h2>
+        <h2>Name : ${drink.strDrink.slice(0, 10)}</h2>
         <div class="price">Category: ${drink.strCategory.slice(0,7)}..</div>
-        <p>${drink.strInstructions.slice(0, 50)}...</p>
+        <p>Instructions : ${drink.strInstructions.slice(0, 15)}...</p>
         <div class="cart-btn">
           <button onclick="addToCart('${drink.idDrink}')">Add to Cart</button>
           <button type="button"  onclick="openModal('${
